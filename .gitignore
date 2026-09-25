@@ -1,0 +1,18 @@
+# Compiled binary — rebuild with install.sh or swiftc
+WordClipboardFix
+*.o
+*.dylib
+
+# Logs and local state
+*.log
+Logs/
+
+# Secrets and editor junk
+.env
+.env.*
+.DS_Store
+*.swp
+*~
+
+# Do not ship local LaunchAgent copies with machine paths
+*.local.plist
